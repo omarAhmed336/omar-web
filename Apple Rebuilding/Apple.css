@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(69, 69, 69,0.95);
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links{
+    width: 90%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#f4eeee;
+    font-size:14px;
+}
+.center{
+text-align: center;
+color: white;
+}
+.iphone{
+    background: url("./Appleimg/iphon16pro.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.iphone h1{
+    padding-top: 70px;
+    font-size: 60px;
+}
+.iphone h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.Learn-more,.Buy
+{ 
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+
+}
+.Learn-more{
+    background-color:#007bff;
+    color: white;
+}
+
+.Learn-more:hover{
+    background-color: #007bff;
+    color: white;
+}
+.Buy{
+    color: #007bff;
+    border: 1px solid #007bff;
+    background-color: transparent;
+}
+.Buy:hover{
+    background-color: #007bff;
+    color: white;
+}
+.iphone-16{
+    background: url("./Appleimg/iphone16.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.iphone-16 h1{
+    padding-top: 70px;
+    font-size: 60px;
+}
+.iphone-16 h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#Learn-more{
+    background-color: #f4eeee;
+    color: black;
+}
+#Buy{
+    color: #f4eeee;
+    border: 1px solid #f4eeee;
+    background-color: transparent;
+}
+#Buy:hover{
+    background-color: #007bff;
+    color: white;
+}
+#Learn-more:hover{
+    background-color: #007bff;
+    color: white;
+}
+.Watch{
+    background: url("./Appleimg/watch_hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin-right: 10px;
+}
+.Watch img{
+    max-width: 150px;
+    padding-top: 50px;
+}
+.Classic{
+    color:black;
+    font-size: 30px;
+    margin: 5px;
+}
+.container{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.white{
+    background: url("./Appleimg/promo_apple_watch_unity__casvx9ysh1le_small_2x.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.container{
+    margin: 10px;
+
+}
+.white p{
+    color: #f4eeee;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#but{
+    background-color: #f4eeee;
+    color: black;
+}
+.white img{
+    max-width: 200px;
+    padding-top: 50px;
+    color: #f4eeee;
+}
+.valentine h1{
+    color:black ;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.special{
+    color: black;
+    font-size: 20px;
+}
+.valentine{
+    background: url("./Appleimg/promo_valentines_day_2025__danermojuw66_large_2x.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin-right: 10px;
+}
+#bottom{
+    margin-top: 350px;
+}
+#shop{
+    background-color: #007bff;
+    color: #f4eeee;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+}
+.mac h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+.lean{
+    color: black;
+    font-size: 20px;
+
+}
+.mac{
+background: url("./Appleimg/hero_macbook_air_m3__cp4t7pn8zqaa_small_2x.jpg");
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 50%;
+/* margin-right: 10px; */
+/* margin-top: 5px; */
+} 
+.macbut{
+
+    font-size: 15px;
+    margin-top: 5px;
+}
+#lean{
+    font-size: 15px;
+}
+.trade{
+        background: url("./Appleimg/promo_iphone_tradein__bugw15ka691e_large_2x\ \(1\).jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 50%;
+        margin-right: 10px;
+}
+.card{
+    background: url("./Appleimg/promo_apple_card__5cm7draujpey_large_2x\ \(3\).jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.card img{
+    max-width: 100px;
+    padding-top: 50px;
+    color: #f4eeee;
+}
+.trade img{
+    max-width: 150px;
+    padding-top: 50px;
+    color: #f4eeee;
+}
+.when{
+    color: black;
+    font-size: 30px;
+}
+.last{
+    background-color: #007bff;
+    color: #f4eeee;
+}
+.Apply{
+    color: #007bff;
+}
+.oma::first-letter{
+    color: #007bff;
+    font-size: 1em;
+    
+}
+.oma{
+    text-align: center;
+    justify-content: center;
+}
+.om{
+    color: red;
+    clip-path: inset(0 10% 0 0);
+    font-size: 1em;
+}
+.green{
+    color:green ;
+    font-size: 1em;
+}
+.foot{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 14px;
+    padding: 20px;
+    color: #454543;
+}
+.foot:hover{
+    outline: darkred;
+}
+.foo{
+    background-color: #f5f5f5;
+    margin-top: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 40px;
+    
+}
+.nav ul li{
+    list-style: none;
+    color: #454543;
+    line-height: 2;
+}
+#foot{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.united{
+    margin-left: 210px;
+}
+.All{
+    margin-right: 20px;
+}
+.bold{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.terms{
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #454543;
+    margin: 0 10px;
+    vertical-align: middle;
+}    
+
+
